@@ -1,0 +1,231 @@
+/* Navbar */
+.navbar {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+/* Middle */
+body {
+    background-color: #f3f2ed;
+}
+
+.begins {
+    background-image: url('pictures/bground1.jpg');
+    background-repeat: repeat;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    min-width: 100%;
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.8;
+}
+
+
+.initial {
+    align-content: center;
+    padding: 200px 100px 250px 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.container h2 {
+    text-align: center; 
+    font-family: playfair Display;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Projects cards */
+.projects {
+    margin-top: 60px;
+}
+
+.card-body h5 {
+    font-family: playfair Display;
+    font-style: italic;
+    text-align:center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.card-body .first {
+    font-family: Domine;
+    text-align:center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-body .second {
+    font-family: Halis R;
+    text-align:center;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.card-body hr {
+    background-color: #fff;
+    width: 90%;
+}
+
+.col-5 h4 {
+    font-family: playfair Display;
+    color: #7A9E5C;
+    font-style: italic;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+/*About me section */
+.personal {
+    margin-top: 50px;
+}
+
+.personal p {
+    font-family: playfair Display;
+    padding: 20px 40px;
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18.5px;
+    text-align: justify;
+}
+
+/* Social media boxes design*/
+.start{
+    background-image: url('pictures/there.jpg');
+    background-repeat: repeat;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    min-width: 100%;
+    font-style: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.start h2{
+    text-align: center; 
+    font-family: playfair Display;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+.start p{
+    text-align: center;
+    color: #fff;
+}
+
+.reach {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.box {
+    height: 90px;
+    -webkit-transition: border-color .2s linear;
+    transition: border-color .2s linear;
+    position: relative;
+    background: #131419;
+    border: 1px solid #3e3e3e;
+    z-index: 0;
+}
+
+.box:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    z-index: -1;
+    bottom: 0;
+    left: -10px;
+    right: 0;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    border: 1px solid #3e3e3e;
+    border-top: none;
+    border-right: none;
+}
+
+.fa-linkedin-in:before {
+    content: "\f0e1";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-github-alt:before {
+    content: "\f113";
+}
+
+.fab {
+    color: #858383;
+    font-size: 30px;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    width: calc(100% - 40px);
+    padding: 20px;
+    background: #131419;
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.user {
+    color: #858383;
+}
+
+.reach-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 50px;
+}
+
+/* Footer */
+.footer {
+    background-color: #2a3737;
+    padding: 20px;
+    margin-top: 30px;
+    color: #fff;
+    text-align:center; 
+    white-space:pre-wrap;
+}
